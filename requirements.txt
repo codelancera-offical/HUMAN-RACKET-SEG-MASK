@@ -1,0 +1,14 @@
+# 核心深度学习框架
+torch
+torchvision
+
+# 计算机视觉与图像处理
+opencv-python
+numpy
+
+# 视频文件写入
+imageio
+imageio-ffmpeg
+
+# Detectron2 的安装比较特殊，请勿直接添加在此处。
+# 请参考下方讲解中的安装命令。
