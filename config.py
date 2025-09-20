@@ -9,8 +9,8 @@ MODEL_CONFIG_FILE = "COCO-InstanceSegmentation/mask_rcnn_R_101_FPN_3x.yaml"
 CONFIDENCE_THRESHOLD = 0.7
 
 # 需要识别并处理的物体类别ID (基于 COCO 数据集)
-# 'person' 的类别ID是 0, 'sports racket' 的类别ID是 39
-CLASSES_TO_MASK = [0, 39] 
+# 'person' 的类别ID是 0, 'sports racket' 的类别ID是 38
+CLASSES_TO_MASK = [0, 38] 
 
 # --- 2. 输出文件名模板 ---
 # 定义三种输出视频的文件名后缀

@@ -1,6 +1,5 @@
 # 网球视频干扰消除工具 (Tennis Video Interference Eliminator)
 
-[![Python](https://img-shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Framework](https://img.shields.io/badge/Framework-Detectron2-orange.svg)](https://github.com/facebookresearch/detectron2)
 [![Code Style](https://img.shields.io/badge/Code%20Style-Clean-brightgreen.svg)]()
 
