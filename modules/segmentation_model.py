@@ -1,4 +1,7 @@
+# segmentation_model.py
+
 import torch
+import logging
 from detectron2.engine import DefaultPredictor
 from detectron2.config import get_cfg
 from detectron2 import model_zoo
@@ -38,7 +41,7 @@ class SegmentationModel:
         # 6. 基于最终的配置，创建一个“默认预测器”实例
         # 这个预测器对象就是我们用来进行实际图像分析的工具
         self.predictor = DefaultPredictor(cfg)
-        print("✅ 分割模型加载成功，已准备就绪。")
+        logging.info("✅ 分割模型加载成功，已准备就绪。")
 
 
     def predict(self, image_bgr: 'np.ndarray') -> dict:

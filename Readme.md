@@ -85,7 +85,7 @@ Detectron2的安装需要优先于其他库。请严格按照以下顺序执行�
 
 ```bash
 # Colab环境中执行此命令
-!python -m pip install 'git+[https://github.com/facebookresearch/detectron2.git](https://github.com/facebookresearch/detectron2.git)'
+!python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 ```
 
 **第二步：安装其余依赖**
